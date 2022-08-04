@@ -1,0 +1,24 @@
+{
+  "name": "1.4-and-1.5",
+  "version": "1.0.0",
+  "description": "1.4 and 1.5",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "nodemon server"
+  },
+  "keywords": [
+    "NodeJS",
+    "Assignment"
+  ],
+  "author": "Raymond Cato",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "jest": "^28.1.3",
+    "nodemon": "^2.0.19"
+  }
+}
