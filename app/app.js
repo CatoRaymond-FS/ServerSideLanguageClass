@@ -11,6 +11,13 @@ app.get("/", (req,res,next)=>{
         message: "Service is up",
     })
 })
+
+app.patch("/", (req,res,next)=>{
+    res.status(200).json({
+        message: "Patch is working",
+    })
+})
+
 //cors
 //localhost:3000/example
 app.use("/example", router);
